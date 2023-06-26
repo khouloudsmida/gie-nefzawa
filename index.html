@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <!--fontawesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Groupment</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-xl navbar-light bg-white py-0 fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+                <img src="image/groupement.png" alt="GIE-NEF" style="width: 164px;">
+
+            </a>
+
+            <div class="order-lg-2 nav-btns">
+                <button type="button" class="btn "
+                    onclick="window.location.href = 'https://www.facebook.com/Nefzaawa/';">
+                    <i class="fa-brands fa-facebook" style="color: #292e7a;"></i>
+                </button>
+                <button type="button" class="btn "
+                    onclick="window.location.href='https://instagram.com/nefzawa_?igshid=YmMyMTA2M2Y=';">
+                    <i class="fa-brands fa-instagram" style="color: #292e7a;"></i>
+                </button>
+                <button type="button" class="btn " onclick="window.location.href ='https://twitter.com/radio_nefzawa';">
+                    <i class="fa-brands fa-twitter" style="color: #292e7a;"></i>
+                </button>
+                <button type="button" class="btn "
+                    onclick="window.location.href = 'https://tn.linkedin.com/company/nefzawa?trk=public_profile_experience-item_profile-section-card_image-click';">
+                    <i class="fa-brands fa-linkedin" style="color: #292e7a;"></i>
+                </button>
+            </div>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#accueil"> home
+                        </a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#à propos">about </a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#services">services</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#objectifs">objectives</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#produits">products </a>
+                    </li>
+                    <li class="nav-item px-2 py-2 border-0">
+                        <a class="nav-link text-uppercase text-dark" href="contact.html">contact </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- fin navbar -->
+
+    <!-- header -->
+    <header id="header" class="vh-100 carousel slide" data-bs-ride="carousel" style="padding-top: 104px; height: 86vh
+    !important;">
+        <div class="container h-100 d-flex align-items-center carousel-inner">
+            <div class="text-center carousel-item active">
+                <h1 class="text-uppercase py-2 fw-bold text-white">GIE-Nef</h1>
+                <h2 class="text-capitalize text-white">Nefzawa groupement for media
+                    <br> developement and production
+                </h2>
+
+                <a href="contact.html" class="btn mt-3 text-uppercase">Contact us</a>
+            </div>
+            <div class="text-center carousel-item">
+                <h1 class="text-uppercase py-2 fw-bold text-white">GIE-Nef</h1>
+                <h2 class="text-capitalize text-white">Media Product & trade
+                    <br>show exhibits
+                </h2>
+
+                <a href="contact.html" class="btn mt-3 text-uppercase">Contact us</a>
+            </div>
+
+            <div class="text-center carousel-item">
+                <h1 class="text-uppercase py-2 fw-bold text-white">GIE-Nef</h1>
+                <h2 class="text-capitalize text-white">Provision of Services or logistics
+                    <br> service marketing
+                </h2>
+
+                <a href="contact.html" class="btn mt-3 text-uppercase">Contact us</a>
+            </div>
+            <div class="text-center carousel-item">
+                <h1 class="text-uppercase py-2 fw-bold text-white">GIE-Nef</h1>
+                <h2 class="text-capitalize text-white"> Incubation of entrepreneurs/startupper
+                    <br>local product selling
+                </h2>
+
+                <a href="contact.html" class="btn mt-3 text-uppercase">Contact us</a>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#header" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#header" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>*
+    </header>
+    <!-- fin header -->
+
+    <!--À propos de nous-->
+    <section id="à propos" class="pt-5">
+        <div class="container">
+            <div class="row gy-lg-5 align-items-center">
+                <div class="col-lg-6 order-lg-1 text-center text-lg-start">
+                    <div class="title pt-3 pb-5">
+                        <h2 class="position-relative d-inline-block ms-4">About us</h2>
+                    </div>
+                    <p class="lead text-muted">Nefzawa groupement for media developement and production «GIE-NEF»
+                    </p>
+                    <p>The most appropriate legal form for setting up a financing mechanism capable of guaranteeing the
+                        sustainability of community media .
+                        The GIE-NEF is governed by Articles 439 to 460 of the Commercial Companies Code . It is a form
+                        of commercial society made up of members of nefzawa along with an organization and a women's
+                        center, and it is endowed with legal identity ()to promote economic activity and enhance or
+                        boost the outcomes of that activity.</p>
+                </div>
+                <div class="col-lg-6 order-lg-0">
+                    <img src="image/strate.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--fin À propos de nous-->
+    <!-- services -->
+    <section id="services" class="py-3">
+        <div class="container">
+            <div class="title text-center py-5">
+                <h2 class="position-relative d-inline-block">Our services</h2>
+            </div>
+
+            <div class="row g-3">
+                <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                    <img src="image/service/prodiction mediatique/image1.png" alt="">
+                    <div class="card-body px-0 ">
+                        <h4 class="card-title">Media Production</h4>
+
+                        <a href="#" class="btn" style="margin-top: 30px;">See more</a>
+                    </div>
+                </div>
+                <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                    <img src="image/service/prodiction mediatique/image2.png" alt="">
+                    <div class="card-body px-0">
+                        <h4 class="card-title">Services delivery and/or logistics</h4>
+
+                        <a href="#" class="btn" style="margin-top: 30px;">See more </a>
+                    </div>
+                </div>
+
+                <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                    <img src="image/service/prodiction mediatique/image3.png" alt="">
+                    <div class="card-body px-0">
+                        <h4 class="card-title">services marketing</h4>
+
+                        <a href="#" class="btn" style="margin-top: 30px;">See more</a>
+                    </div>
+                </div>
+                <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                    <img src="image/service/prodiction mediatique/image4.png" alt="">
+                    <div class="card-body px-0">
+                        <h4 class="card-title">Events Organization</h4>
+
+                        <a href="#" class="btn" style="margin-top: 30px;">See more</a>
+                    </div>
+                </div>
+                <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                    <img src="image/service/prodiction mediatique/image5.png" alt="">
+                    <div class="card-body px-0">
+                        <h4 class="card-title">Trade show exhibits</h4>
+
+                        <a href="#" class="btn" style="margin-top: 30px;">See more</a>
+                    </div>
+                </div>
+                <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                    <img src="image/service/prodiction mediatique/image6.png" alt="">
+                    <div class="card-body px-0">
+                        <h4 class="card-title">Incubation of entrepreneurs/ <br> startupper</h4>
+
+                        <a href="#" class="btn" style="margin-top: 1px;">See more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- fin service -->
+
+    <!--objectif-->
+    <section id="objectifs" class=" py-5">
+
+        <div class="title text-center">
+            <h2 class="position-relative d-inline-block">Our objectives</h2>
+        </div>
+        <div id="objectif">
+            <div id="objectif-btn" class=" container carousel slide" data-bs-ride="carousel" style="height: 59vh">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#objectif-btn" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#objectif-btn" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#objectif-btn" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+
+                </div>
+                <div class="  text-center  carousel-inner" style="    padding-top: 116px;">
+                    <div class="carousel-item   active">
+                        <h1 class="text-uppercase py-2 fw-bold text-white">GIE-NEF</h1>
+                        <h2 class="text-capitalize text-white">Facilitating Economic Activity<br>Of Its Members </h2>
+
+                    </div>
+                    <div class="carousel-item ">
+                        <h1 class="text-uppercase py-2 fw-bold text-white">GIE-NEF</h1>
+                        <h2 class="text-capitalize text-white">Economic Support Structure <br>To Its Members </h2>
+
+                    </div>
+                    <div class="carousel-item ">
+                        <h1 class="text-uppercase py-2 fw-bold text-white">GIE-NEF</h1>
+                        <h2 class="text-capitalize text-white">Perform Any Type Of Activity <br> </h2>
+
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#objectif-btn" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#objectif-btn" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- fin objectif-->
+
+    <!--produit-->
+    <section id="produits" class="py-5">
+        <div class="container">
+            <div class="title text-center">
+                <h2 class="position-relative d-inline-block">Our products </h2>
+            </div>
+
+            <div class="row g-0">
+                <div class="d-flex flex-wrap justify-content-center mt-5 filter-button-group">
+                    <button type="button" class="btn m-2  active-filter-btn" data-filter="*">ALL</button>
+                    <button type="button" class="btn m-2 " data-filter=".datte">Dates
+                    </button>
+                    <button type="button" class="btn m-2 " data-filter=".artisana">Artisinal products </button>
+
+                </div>
+
+                <div class="produit-list mt-4 row gx-0 gy-3">
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 datte">
+                        <div class="produit-img overflow-hidden">
+                            <img src="image/produit/Deglet ennour.png" class="w-100">
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Deglet ennour</p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 artisana">
+                        <div class="produit-img overflow-hidden">
+                            <img src="image/produit/balgha.png" class="w-100">
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Balgha</p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 datte">
+                        <div class="produit-img  overflow-hidden">
+                            <img src="image/produit/Besser Helou.png" class="w-100">
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Besser Helou</p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 artisana">
+                        <div class="produit-img  overflow-hidden">
+                            <img src="image/produit/margoum.png" class="w-100">
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Margoum</p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 datte">
+                        <div class="produit-img overflow-hidden ">
+                            <img src="image/produit/Ftimi ou Alig.png" class="w-100">
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Ftimi ou Alig</p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 artisana">
+                        <div class="produit-img overflow-hidden">
+                            <img src="image/produit/lebsa traditionnelle.png" class="w-100">
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Lebsa traditional</p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 artisana">
+                        <div class="produit-img overflow-hidden">
+                            <img src="image/produit/produit smara.png" class="w-100">
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Product smara</p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 datte">
+                        <div class="produit-img overflow-hidden">
+                            <img src="image/produit/kosbi.png" class="w-100">
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Kosbi</p>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--fin produit-->
+    <!-- offer -->
+    <section class="p-3">
+        <div class="container" id="offer">
+            <div class="row">
+                <div class="d-flex flex-wrap  justify-content-evenly my-5 mx-3">
+                    <div class=" py-3 py-md-0 px-3 text-center">
+                        <i class="fa-solid fa-cart-shopping mb-2"></i>
+                        <h5>Free delivery
+                        </h5>
+                    </div>
+                    <div class=" py-3 py-md-0 text-center">
+                        <i class="fa-solid fa-truck mb-2"></i>
+                        <h5>Quick Delivery
+                        </h5>
+                    </div>
+                    <div class=" py-3 py-md-0 text-center">
+                        <i class="fa-solid fa-thumbs-up mb-2"></i>
+                        <h5>Multiple choice
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- offer -->
+
+
+
+
+    <!-- newsletter -->
+    <section id="newsletter" class="py-5">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center justify-content-center">
+                <div class="title text-center pt-3 pb-5">
+                    <h2 class="position-relative d-inline-block ms-4">Newsletter Subscription</h2>
+                </div>
+
+
+                <div class="input-group mb-3 mt-3">
+                    <input type="text" class="form-control" placeholder="Enter Your Email ...">
+                    <button class="btn btn-primary" type="submit">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--fin newsletter -->
+
+    <!-- footer -->
+
+    <footer class=" py-5">
+
+
+        <div class="container">
+
+            <div class="row text-white g-4">
+                <div class="col-md-6 col-lg-3">
+                    <a class="text-uppercase text-decoration-none brand text-white display-6 fw-bold"
+                        href="index.html">GIE-Nef</a>
+                    <p class=" text-secondary mt-3"> Nefzawa groupement for media developement and production
+                    </p>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="fw-light">Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="my-3">
+                            <a href="index.html" class=" text-decoration-none text-secondary text-capitalize">
+                                <i class="fas fa-chevron-right me-1 "></i> home
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#à propos" class=" text-decoration-none text-secondary text-capitalize">
+                                <i class="fas fa-chevron-right me-1"></i> about
+
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#services" class=" text-decoration-none text-secondary text-capitalize">
+                                <i class="fas fa-chevron-right me-1"></i> services
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#objectifs" class=" text-decoration-none text-secondary text-capitalize">
+                                <i class="fas fa-chevron-right me-1"></i> objectives
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#produits" class=" text-decoration-none text-secondary text-capitalize">
+                                <i class="fas fa-chevron-right me-1"></i> products
+
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="contact.html" class=" text-decoration-none text-secondary text-capitalize">
+                                <i class="fas fa-chevron-right me-1"></i> contact
+
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="fw-light mb-3 ">Contact Us</h5>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-secondary">
+                        <span class="me-3">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </span>
+                        <span class="fw-light">
+                            Kébili , gabes street
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-secondary">
+                        <span class="me-3">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <span class="fw-light">
+                            gie@nefzawa.net
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-secondary">
+                        <span class="me-3">
+                            <i class="fas fa-phone-alt"></i>
+                        </span>
+                        <span class="fw-light">
+                            +216 75490950 <br> +216 29976405
+                        </span>
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <a href="nos-client.html">
+                        <div class="bordure text-capitalize"></div>
+                    </a>
+                    <div style="margin-left: 53px;
+                    margin-top: 37px;">
+                        <ul class="list-unstyled d-flex">
+                            <li>
+                                <a href="https://www.facebook.com/Nefzaawa/"
+                                    class=" text-decoration-none text-secondary fs-4 me-4">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/radio_nefzawa"
+                                    class=" text-decoration-none text-secondary fs-4 me-4">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com/nefzawa_?igshid=YmMyMTA2M2Y="
+                                    class="text-decoration-none text-secondary fs-4 me-4">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://tn.linkedin.com/company/nefzawa?trk=public_profile_experience-item_profile-section-card_image-click"
+                                    class=" text-decoration-none text-secondary fs-4 me-4">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!--jquery-->
+    <script src="js/jquery-3.6.3.js"></script>
+    <!-- isotope js -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!--bootstrap js-->
+    <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
